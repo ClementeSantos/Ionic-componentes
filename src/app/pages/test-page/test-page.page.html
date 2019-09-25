@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar color="dark" text-center>
+    <ion-title>Botones</ion-title>
+    <ion-buttons slot="start">
+        <ion-back-button defaultHref="home"></ion-back-button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+      <ion-button color="light">Blanco</ion-button>
+      <ion-button color="medium">Gris</ion-button>
+      <ion-button expand="block">Botón común</ion-button>
+      <ion-button color="danger">
+        <ion-icon name="home"></ion-icon>
+        <ion-icon name="beer"></ion-icon>
+      </ion-button>
+      <ion-button color="warning">
+        <ion-icon name="cart"></ion-icon>
+      </ion-button>
+      <ion-button expand="full" color="light" fill="solid">
+        <ion-icon slot="start" name="star"></ion-icon>
+        Estrella
+      </ion-button><br>
+      <ion-button size="large" expand="block" color="success">Grande</ion-button>
+      <ion-button size="small" color="tertiary">Pequeño</ion-button><br><br><br>
+
+      <ion-button href="/home" color="secondary">Volver a home</ion-button>
+</div>
+</ion-content>
